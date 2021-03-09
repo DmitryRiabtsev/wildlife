@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/animation.css">
+    <link rel="stylesheet" type="text/css" href="css/search-codes.css">
+    <link rel="stylesheet" type="text/css" href="css/search-embedded.css">
+    <link rel="stylesheet" type="text/css" href="css/search-ie7-codes.css">
+    <link rel="stylesheet" type="text/css" href="css/search-ie7.css">
+    <link rel="stylesheet" type="text/css" href="css/search.css">
+    <title>Wildlife</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header-content">
+                <div class="header-logo">
+                    <img class="logo__image" src="assets/svg/logo.svg" alt="Logo">
+                    <h1 class="logo__title">wildlife</h1>
+                </div>
+                <nav class="header-nav">
+                    <ul class="header-nav__list">
+                        <li class="header-nav__list-item list-border__inactive blog">
+                            <a class="list-link" href="#">Blog</a>
+                        </li>
+                        <li class="header-nav__list-item list-border__inactive contacts">
+                            <a class="list-link" href="#">Contacts</a>
+                        </li>
+                        <li class="header-nav__list-item list-border__inactive search">
+                            <a class="list-link searchicon-credit" href="#"></a>
+                        </li>
+                        <li class="header-nav__list-item list-border">
+                            <a class="list-link" href="#">Sign in</a>
+                        </li>      
+                    </ul>    
+                </nav>
+            </div>
+        </header>
+        <main>
+        <div class="background-image">         
+            <section class="survival">
+                <div class="survival-content">
+                    <h2 class="survival__title">Survival</h2>
+                    <p class="survival__subtitle">
+                        <span>What this means is that we exist</span>
+                        <span>to help protect our environment</span>
+                        <span>and do in numbers of ways. You</span>
+                        <span>can save the planet by donation.</span>
+                    </p>
+                    <button class="survival__button">Donate</button>
+                </div>
+            </section>
+        </div>        
+            <section class="latest-articles">
+                <div class="latest-content">
+                    <div class="latest-text">
+                        <h2 class="latest__title">Latest articles</h2>
+                        <p class="latest__subtitle">Breaking news from the wild</p>
+                    </div>
+                    <div class='latest__slider'>
+                        <img onclick="direction()" class="slider-left" src="assets/svg/arrow.svg" alt="arrow-left">
+                        <div class="slider-content"> 
+                        </div>
+                        <img onclick="direction()" class="slider-right" src="assets/svg/arrow.svg" alt="arrow-right">
+                    </div>
+                </div>
+            </section>
+            <section class="get-notified">
+                <div class="get-content">
+                    <h3 class="get-title">Get notified about new amazing articles</h3>
+                    <div class="get-content__form">
+                        <form action="#">
+                            <input type="email" name="email" required placeholder="Email" class="mail-search">
+                            <button type="submit" class="button-send">Send</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer__logo">
+                    <img class="logo__image" src="assets/svg/logo.svg" alt="Logo">
+                    <h2 class="logo__title">wildlife</h2>
+                </div>
+                <div class="footer__nav">
+                    <ul class="nav-list">
+                        <li class="list-item">
+                            <a class="list__link" href="#">Articles</a>
+                        </li>
+                        <li class="list-item">
+                            <a class="list__link" href="#">About us</a>
+                        </li>
+                        <li class="list-item">
+                            <a class="list__link" href="#">Learn more</a>
+                        </li>   
+                    </ul>
+                </div>
+                <div class="footer__social">
+                    <ul class="social-list">
+                        <li class="list-item">
+                            <a class="list__link" href="#"><img class="icon" src="assets/svg/facebook.svg" alt="facebook"></a>
+                        </li>
+                        <li class="list-item">
+                            <a class="list__link icon-instagram" href="#"><img class="icon" src="assets/svg/instagram.svg" alt="instagram"></a>
+                        </li>
+                        <li class="list-item">
+                            <a class="list__link icon-patreon" href="#"><img class="icon" src="assets/svg/patreon.svg" alt="patreon"></a>
+                        </li>
+                        <li class="list-item">
+                            <a class="list__link icon-telegram" href="#"><img class="icon" src="assets/svg/telegram.svg" alt="telegram"></a>
+                        </li>   
+                    </ul>
+                </div>
+            </div>
+        </footer>   
+    </div>
+    <script src="js/script.js"></script>  
+</body>
+</html>
